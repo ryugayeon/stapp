@@ -32,4 +32,6 @@ if selectSpiecs:
         plt.ylabel(selectY)
         plt.title('Iris Scatter Plot')
         st.pyplot(fig)
+else:
+    st.warning('붓꽃을 선택해주세요')
         
